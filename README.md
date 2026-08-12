@@ -20,12 +20,10 @@ Os conteúdos estão separados em diferentes pastas, de acordo com os cursos e d
 
 Entre elas:
 
-* **Web 1**
-* **Web 2**
 * **HTML**
 * **CSS**
 * **JavaScript**
-* Outros cursos e conteúdos relacionados a Web
+* Outros conteúdos relacionados a Web
 
 ---
 
@@ -39,9 +37,9 @@ O principal objetivo deste repositório é **centralizar e registrar minha evolu
 
 ## 💻 Projetos
 
-O repositório pode conter exercícios, atividades, exemplos, testes e projetos desenvolvidos durante os cursos.
+O repositório pode conter exercícios, atividades, exemplos, testes e projetos desenvolvidos.
 
-Cada projeto ou atividade poderá possuir sua própria pasta.
+Cada projeto ou atividade possuirá sua própria pasta.
 
 ---
 
