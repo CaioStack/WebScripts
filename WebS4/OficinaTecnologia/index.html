@@ -1,11 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oficina de Tecnologia</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <h1>Oficina de Tecnologia</h1>
+
+        <p>
+            Participe da nossa Oficina de Tecnologia e aprenda mais sobre
+            programação, desenvolvimento web e inovação tecnológica.
+        </p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Sobre a Oficina</h2>
+
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                    alt="Computador e componentes tecnológicos"
+                    width="500">
+                <figcaption>Imagem relacionada à tecnologia</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Informações e Regras</h2>
+
+            <ul>
+                <li>A inscrição é obrigatória para participar da oficina.</li>
+                <li>Os participantes devem chegar com antecedência.</li>
+                <li>É necessário respeitar os horários das atividades.</li>
+                <li>Os participantes devem seguir as orientações do instrutor.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Horários das Atividades</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Atividade</th>
+                        <th>Local</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>08:00 - 09:00</td>
+                        <td>Introdução à Tecnologia</td>
+                        <td>Laboratório 1</td>
+                    </tr>
+
+                    <tr>
+                        <td>09:00 - 10:00</td>
+                        <td>Introdução à Programação</td>
+                        <td>Laboratório 1</td>
+                    </tr>
+
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td>Desenvolvimento Web</td>
+                        <td>Laboratório 2</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Oficina com duração total de 3 horas</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Inscrição</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </p>
+
+                <fieldset>
+                    <legend>Turno</legend>
+
+                    <input type="radio" id="manha" name="turno" value="manha" required>
+                    <label for="manha">Manhã</label>
+
+                    <input type="radio" id="tarde" name="turno" value="tarde">
+                    <label for="tarde">Tarde</label>
+
+                    <input type="radio" id="noite" name="turno" value="noite">
+                    <label for="noite">Noite</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Áreas de interesse</legend>
+
+                    <input type="checkbox" id="programacao" name="interesse" value="programacao">
+                    <label for="programacao">Programação</label>
+
+                    <input type="checkbox" id="web" name="interesse" value="web">
+                    <label for="web">Desenvolvimento Web</label>
+
+                    <input type="checkbox" id="ia" name="interesse" value="ia">
+                    <label for="ia">Inteligência Artificial</label>
+
+                    <input type="checkbox" id="redes" name="interesse" value="redes">
+                    <label for="redes">Redes</label>
+                </fieldset>
+
+                <p>
+                    <label for="curso">Curso:</label>
+
+                    <select id="curso" name="curso" required>
+                        <option value="">Selecione seu curso</option>
+                        <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                        <option value="si">Sistemas de Informação</option>
+                        <option value="engenharia">Engenharia de Computação</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensagem">Mensagem ou comentário:</label>
+                    <br>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="5"
+                        cols="40"
+                        placeholder="Digite sua mensagem..."></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Saiba mais</h2>
+
+            <p>
+                Para aprender mais sobre tecnologia e desenvolvimento web,
+                acesse:
+                <a href="https://developer.mozilla.org/pt-BR/" target="_blank">
+                    MDN Web Docs
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Oficina de Tecnologia - Desenvolvimento Web I</p>
+    </footer>
+
 </body>
+
 </html>
